@@ -3,13 +3,6 @@ import typer  # pip install "typer[all]"
 from rich import print  # pip install rich
 from rich.table import Table
 
-"""
-Módulo OpenAI: https://github.com/openai/openai-python
-Documentación API ChatGPT: https://platform.openai.com/docs/api-reference/chat
-Typer: https://typer.tiangolo.com
-Rich: https://rich.readthedocs.io/en/stable/
-"""
-
 def main():
 
     openai.api_key = "TU_API_KEY creada en https://platform.openai.com"
